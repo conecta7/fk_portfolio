@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background-color: #1A191D;
+    color: white;
+    font-family: 'BergenMono', sans-serif;
+    font-weight: 100;
+    background-image: url(../website/visuals/pattern.png);
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-position: top;
+    padding-top: 160px;
+}
+
+.lightblue { color: #4998A9;}
+
+.fsize-14 {font-size: 14px;}
+.fsize-20 {font-size: 20px;}
+.fsize-48 {font-size: 48px; letter-spacing: 13px;}
+
+@font-face {
+    font-family: 'BergenMono';
+    src: 
+        url(../website/BergenMono-Webfont/BergenMono-Regular.woff) format('woff'),
+        url(../website/BergenMono-Webfont/BergenMono-Regular.woff2) format('woff2'),
+        url(../website/BergenMono-Webfont/BergenMono-Bold.woff) format('woff'),
+        url(../website/BergenMono-Webfont/BergenMono-Bold.woff2) format('woff2'),
+        url(../website/BergenMono-Webfont/BergenMono-SemiBold.woff) format('woff'),
+        url(../website/BergenMono-Webfont/BergenMono-SemiBold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url(../website/futura/FuturaBT-Heavy.woff) format('woff'),
+    url(../website/futura/FuturaBT-Heavy.woff2) format('woff2');
+}
+
+@-webkit-keyframes hvr-pulse-grow {
+    to {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+  @keyframes hvr-pulse-grow {
+    to {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+  .hvr-pulse-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+    -webkit-animation-name: hvr-pulse-grow;
+    animation-name: hvr-pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bergenfont {
+    font-family: 'BergenMono', sans-serif;
+    font-weight: 100;
+}
+
+.futura {
+    font-family: 'Futura';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 112px;
+}
+
+.roboto {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* NAVBAR */
+
+.logo {
+    font-family: 'BergenMono', sans-serif;
+    font-weight: 100;
+    letter-spacing: -2px;
+    font-size: 32px;
+}
+
+.btn {
+    border: 1px solid #4998A9;
+    font-size: 14px;
+    padding: 15px 36px;
+}
+
+.btn:hover {
+    background-color: #4998A9;
+}
+
+/* HEADER  */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+
+.header-txt {
+    height: 100vh;
+    margin: auto;
+}
+
+.nm {
+    margin-top: -20px;
+}
+
+.social3 {
+    font-size: 25px;
+    color: lightgrey;
+    margin-bottom: 25px;
+}
+
+.social2 {
+    font-size: 28px;
+    color: lightgrey;
+    margin-bottom: 25px;
+}
+
+.social1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    color:lightgrey;
+}
+
+.social1:hover {color: #4998A9;}
+.social2:hover {color: #4998A9;}
+.social3:hover {color: #4998A9;}
+
+.line {
+    border-left: 1px solid white;
+    height: 100px;
+}
+
+.socials {
+    position: fixed;
+}
+
+.socials::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 80px;
+    margin-left: 11px;
+    background-color: grey;
+}
+

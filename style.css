@@ -13,25 +13,28 @@ body {
 
 .lightblue { color: #4998A9;}
 .card-blue {background-color: #2A3245;}
-
 .fsize-14 {font-size: 14px;}
 .fsize-20 {font-size: 20px;}
 .fsize-24 {font-size: 24px;}
 .fsize-26 {font-size: 26px;}
 .fsize-48 {font-size: 48px; letter-spacing: 13px;}
+.fsize-58 {font-size: 58px;}
 .fsize-64 {font-size: 64px;}
-.hi {font-family: 'Poppins', sans-serif; font-size: 32px; font-weight: bold; margin: 30px 0;}
-.number {font-weight: bolder;}
+.hi {font-family: 'Poppins', sans-serif; font-size: 32px; font-weight: bold; margin-top: 30px;}
 .fw-semi {font-weight: 600;}
 .h3-color {color: #E5C07B;}
 .mt-10 {margin-top: 10px;}
+.fw-medium {font-weight: 500;}
+.upwork {color: #98C379;}
+.number {margin-bottom: -20px;}
+.smalltext {margin-top: -15px;}
 
 .plain-text {
     font-size: inherit;
     font-weight: inherit;
     margin: 0;
     padding: 0;
-  }
+}
 
 @font-face {
     font-family: 'BergenMono';
@@ -55,21 +58,24 @@ body {
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
     }
-  }
-  @keyframes hvr-pulse-grow {
+}
+
+@keyframes hvr-pulse-grow {
     to {
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
     }
-  }
-  .hvr-pulse-grow {
+}
+
+.hvr-pulse-grow {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  }
-  .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+}
+  
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
     -webkit-animation-name: hvr-pulse-grow;
     animation-name: hvr-pulse-grow;
     -webkit-animation-duration: 0.3s;
@@ -80,8 +86,28 @@ body {
     animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
-  }
+}
 
+/* hand wave anim  */
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+  
+@keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+}
+  
 .poppins {
     font-family: 'Poppins', sans-serif;
 }
@@ -100,6 +126,10 @@ body {
 
 .roboto {
     font-family: 'Roboto Mono', monospace;
+}
+
+.section {
+    margin-bottom: 250px;
 }
 
 /* NAVBAR */
@@ -181,10 +211,6 @@ body {
 
 /* ABOUT  */
 
-.about {
-    margin-top: 350px;
-}
-
 .social-img1 {
     width: 42px;
     height: 42px;
@@ -206,7 +232,26 @@ body {
     margin-top: -20px;
 }
 
+.border2 {
+    border-bottom: 2px solid #2C49D8;
+    border-width: 10px;
+    margin-top: -20px;
+}
+
 .card {
     width: 296px;
     height: 240px;
+}
+
+/* WORK HISTORY  */
+
+.selector-border {
+    border-left: 1px solid white;
+    height: 122px;
+    margin-right: 20px;
+    opacity: 0.5;
+}
+
+.work-selector {
+    margin-top: 68px;
 }

@@ -13,11 +13,13 @@ body {
 
 .lightblue { color: #4998A9;}
 .card-blue {background-color: #2A3245;}
+.fsize-12 {font-size: 12px;}
 .fsize-14 {font-size: 14px;}
 .fsize-16 {font-size: 16px;}
 .fsize-20 {font-size: 20px;}
 .fsize-24 {font-size: 24px;}
 .fsize-26 {font-size: 26px;}
+.fsize-36 {font-size: 36px;}
 .fsize-48 {font-size: 48px; letter-spacing: 13px;}
 .fsize-58 {font-size: 58px;}
 .fsize-64 {font-size: 64px;}
@@ -276,4 +278,37 @@ body {
 
 .static {
     transform: translateZ(0);
-  }
+}
+
+/* NOTEWORTHY MENTIONS  */
+
+.mention-card {
+    background-color: #2A3245;
+    padding: 40px 30px 25px;
+}
+
+/* GET IN TOUCH  */
+
+.contact-card-title {
+    width: 60%;
+}
+
+.testimonials {
+    background-color:#2A3245;
+    padding: 43px 40px 30px 34px;
+}
+
+.arrows {
+    background-color: #1A191D;
+    width: 50px !important; /* new */
+    height: 50px !important; /* new */
+    border-radius: 50%; /* new */
+    text-align: center; /* new */
+    line-height: 50px; /* new */
+    vertical-align: middle; /* new */
+    padding: 25px; /* new */
+}
+
+.icon {
+    left: 17px !important; /* new */
+}

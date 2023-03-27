@@ -8,10 +8,11 @@ body {
     background-repeat: no-repeat;
     background-size: 750px;
     background-position: top;
-    padding-top: 160px;
+    padding-top: 112px;
 }
 
 .lightblue { color: #4998A9;}
+.purple {background-color: #706BE9;}
 .card-blue {background-color: #2A3245;}
 .fsize-12 {font-size: 12px;}
 .fsize-14 {font-size: 14px;}
@@ -20,9 +21,14 @@ body {
 .fsize-24 {font-size: 24px;}
 .fsize-26 {font-size: 26px;}
 .fsize-36 {font-size: 36px;}
+.fsize-40 {font-size: 40px;}
 .fsize-48 {font-size: 48px; letter-spacing: 13px;}
+.fsize-48c {font-size: 48px; line-height: 86%;}
 .fsize-58 {font-size: 58px;}
 .fsize-64 {font-size: 64px;}
+.fsize-96 {font-size: 96px;}
+.fsize-126 {font-size: 126px;}
+.fsize-186 {font-size: 186px;}
 .hi {font-family: 'Poppins', sans-serif; font-size: 32px; font-weight: bold; margin-top: 30px;}
 .fw-semi {font-weight: 600;}
 .h3-color {color: #E5C07B;}
@@ -42,6 +48,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.section {padding-top: 48px;}
+
 
 @font-face {
     font-family: 'BergenMono';
@@ -311,4 +320,104 @@ body {
 
 .icon {
     left: 17px !important; /* new */
+}
+
+/* EDZI PROJECT PAGE */
+
+.header-text {
+    top: 55%;
+    left: 15%;
+    /* transform: translate(-55%); */
+    /* display: block; */
+    max-width: max-content;
+}
+
+.project-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.palette, .logo-dog {
+    width: 623px;
+    height: 613px;
+}
+
+.btn-three {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-three {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+}
+.btn-three::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.1);
+    transition: all 0.3s;
+}
+
+.btn-three:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+}
+.btn-three::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    transform: scale(1.2,1.2);
+}
+.btn-three:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+}
+
+.border4 {
+    border-bottom: 2px solid #4998A9;
+    border-width: 10px;
+    margin-top: -30px;
+    width: 210px;
+}
+
+.hvr-bounce-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+/* ICONICRV PROJECT PAGE  */
+
+.border5 {
+    border-bottom: 2px solid #4998A9;
+    border-width: 15px;
+    margin-top: -40px;
+    width: 300px;
+}
+
+.viewlive {
+    margin-top: 100px;
 }

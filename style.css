@@ -4,14 +4,19 @@ body {
     color: white;
     font-family: 'BergenMono', sans-serif;
     font-weight: 100;
-    background-image: url(../website/visuals/pattern.png);
-    background-repeat: no-repeat;
-    background-size: 750px;
-    background-position: top;
     padding-top: 112px;
 }
 
-  
+.main-img {
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    /* filter: invert(90%) sepia(11%) saturate(5808%) hue-rotate(156deg) brightness(75%) contrast(66%); */
+    opacity: 0.2;
+    z-index: -9999;
+}
+
+
 
 .lightblue { color: #4998A9;}
 .purple {background-color: #706BE9;}
@@ -85,35 +90,7 @@ body {
     }
 }
 
-.hvr-pulse-grow {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-  
-.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
-    -webkit-animation-name: hvr-pulse-grow;
-    animation-name: hvr-pulse-grow;
-    -webkit-animation-duration: 0.3s;
-    animation-duration: 0.3s;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-}
 
-/* hand wave anim  */
-.wave {
-    animation-name: wave-animation;  
-    animation-duration: 2.5s;        
-    animation-iteration-count: infinite;  
-    transform-origin: 70% 70%;       
-    display: inline-block;
-}
   
 @keyframes wave-animation {
       0% { transform: rotate( 0.0deg) }
@@ -173,8 +150,6 @@ body {
     transform: translateY(-100%);
     transition: transform 0.5s ease-out;
 }
-
-
 
 .logo {
     font-family: 'BergenMono', sans-serif;
@@ -288,10 +263,24 @@ body {
 /* WORK HISTORY  */
 
 .selector-border {
-    border-left: 1px solid white;
-    height: 122px;
+    border-left: 2px solid white;
+    height: 100px;
     margin-right: 20px;
     opacity: 0.5;
+    border-radius: 5px;
+    /* margin-top: 10px; */
+}
+
+.upwork-border {
+    border-left: 2px solid green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.iconic-border {
+    border-left: 1px solid red;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .work-selector {
@@ -314,6 +303,15 @@ body {
 .static {
     transform: translateZ(0);
 }
+
+.edzi {
+    color: white;
+}
+
+.edzi:hover {
+    color: #4998A9;
+}
+
 
 /* NOTEWORTHY MENTIONS  */
 
@@ -347,6 +345,22 @@ body {
 .icon {
     left: 17px !important; /* new */
 }
+
+.share {
+    color: white;
+}
+
+.share:hover {
+    color: #4998A9;
+}
+
+.a-disabled {
+    color: grey;
+    pointer-events: none;
+}
+
+
+
 
 /* EDZI PROJECT PAGE */
 

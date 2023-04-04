@@ -7,6 +7,7 @@
     <title>portfolio_main</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover.css">
     <script src="https://kit.fontawesome.com/6482a48f36.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +21,8 @@
 
 </head>
 <body>
+
+      
 
     <!-- navbar  -->
 
@@ -59,6 +62,8 @@
         <div class="section">
           <div class="header d-flex flex-column">
             <h1 class="futura text-center mb-0">KARANIKU</h1>
+            <!-- <img src="../website/visuals/pattern_color.png" alt="" class="main-img"> -->
+            <object data="../website/visuals/pattern.svg" class="main-img svg"></object>
             <p class="roboto fw-bold text-center text-uppercase nm fsize-48 ps-2">ux/ui designer</p>
           </div>
           <ul class="list-unstyled socials mb-0 d-flex flex-column">
@@ -134,8 +139,8 @@
               <div class="col-4 pe-0">
                 <div class="work-selector">
                   <div class="selector-border position-absolute"></div>
-                  <p class="roboto fw-bold fsize-20 pt-3 ps-4">UpWork</p>
-                  <p class="roboto fw-medium text-muted fsize-20 pt-3 ps-4">Rhino MBA</p>
+                  <p class="roboto fw-bold fsize-20 m-0 ps-4 upwork-border">UpWork</p>
+                  <p class="roboto fw-medium text-muted fsize-20 pt-2 ps-4">Rhino MBA</p>
                 </div>
               </div>
               <div class="col-8 work-selector p-0">
@@ -191,7 +196,7 @@
               </div>
               <div class="col-4 ps-0">
                 <p class="roboto fsize-16 lightblue fw-normal text-end">Featured Project</p>
-                <p class="poppins fsize-24 fw-bold text-end smalltext">Edzi Social Media App</p>
+                <a href="edzi.html" class="edzi text-decoration-none"><p class="poppins fsize-24 fw-bold text-end smalltext">Edzi Social Media App</p></a> 
                 <div class="project-card ml-120">  <!-- pos-ab -->
                   <p class="poppins fsize-16 fw-normal text-end project-card-inner">A social media app made specifically for dog owners! Dive deep into the process of constructing and designing of a one-of-a-kind social experience.</p>
                 </div>
@@ -216,7 +221,7 @@
 
             <div class="row project mt-60 align-items-center mt-145"> <!-- pos-rev -->
               <div class="col-7 pe-0">
-                <img src="../website/visuals/shum_card.png" alt="" class="d-block w-100">
+                <img src="../website/visuals/shum_card_disabled.png" alt="" class="d-block w-100">
               </div>
               <div class="col-4 ps-0">
                 <p class="roboto fsize-16 lightblue fw-normal text-end">Featured Project</p>
@@ -236,28 +241,40 @@
         <div class="row section justify-content-center">
           <p class="fsize-36 poppins fw-bold text-center mb-1">Noteworthy Mentions</p>
           <p class="roboto text-muted fsize-14 fw-bold text-center mb-5">they're just as good, i promise</p>
-          <div class="col-3 mention-card">
-            <i class="fa-regular fa-folder lightblue mb-4 fa-2xl"></i>
-            <p class="fsize-20 poppins fw-semi">The Shot Games</p>
-            <p class="fsize-14 poppins fw-normal">A drinking game mobile app that consists of multiple mini-games that you are not going to survive.</p>
+          <div class="col-3 mention-card hvr-float">
+            <div class="card-head d-flex justify-content-between align-items-center mb-4">
+              <i class="fa-regular fa-folder lightblue fa-2xl"></i>
+              <a href="https://apps.apple.com/mk/app/game-of-flip/id1502177320" class="text-decoration-none" target="_blank"><i class="fa-sharp fa-solid fa-square-arrow-up-right share fa-lg"></i></a> 
+            </div>
+            <p class="fsize-20 poppins fw-semi">Game of Flip</p>
+            <p class="fsize-14 poppins fw-normal">The skater's favorite. A game that challenges you to do various flips and compete with your friends.</p>
             <ul class="lightblue roboto list-unstyled mt-4">
               <li class="fsize-12 fw-normal d-inline me-2">UI Design</li>
               <li class="fsize-12 fw-normal d-inline">Brand Identity</li>
             </ul>
           </div>
-          <div class="col-3 ms-4 mention-card">
-            <i class="fa-regular fa-folder lightblue mb-4 fa-2xl"></i>
+          <div class="col-3 ms-4 mention-card hvr-float">
+            <div class="card-head d-flex justify-content-between align-items-center mb-4">
+              <i class="fa-regular fa-folder lightblue fa-2xl"></i>
+              <p class="roboto fw-normal fsize-12 text-muted mb-0">[WORK IN PROGRESS]</p>
+              <a href="#" class="text-decoration-none a-disabled"><i class="fa-sharp fa-solid fa-square-arrow-up-right fa-lg"></i></a> 
+            </div>
             <p class="fsize-20 poppins fw-semi">Brainster Library</p>
-            <p class="fsize-14 poppins fw-normal">A drinking game mobile app that consists of multiple mini-games that you are not going to survive.</p>
+            <p class="fsize-14 poppins fw-normal">A virtual library that students can use to reserve and/or rent a book. Includes a functional admin panel.</p>
             <ul class="lightblue roboto list-unstyled mt-4">
               <li class="fsize-12 fw-normal d-inline me-2">UI Design</li>
               <li class="fsize-12 fw-normal d-inline">Prototyping</li>
             </ul>
           </div>
-          <div class="col-3 ms-4 mention-card">
-            <i class="fa-regular fa-folder lightblue mb-4 fa-2xl"></i>
+          <div class="col-3 ms-4 mention-card hvr-float">
+            <div class="card-head d-flex justify-content-between align-items-center mb-4">
+              <i class="fa-regular fa-folder lightblue fa-2xl"></i>
+              <p class="roboto fw-normal fsize-12 text-muted mb-0">[WORK IN PROGRESS]</p>
+              <a href="#" class="text-decoration-none a-disabled"><i class="fa-sharp fa-solid fa-square-arrow-up-right fa-lg"></i></a> 
+            </div>
+            
             <p class="fsize-20 poppins fw-semi">Brainster Labs</p>
-            <p class="fsize-14 poppins fw-normal">A drinking game mobile app that consists of multiple mini-games that you are not going to survive.</p>
+            <p class="fsize-14 poppins fw-normal">This is a learning platform where students can upload their projects, read articles and write blog posts.</p>
             <ul class="lightblue roboto list-unstyled mt-4">
               <li class="fsize-12 fw-normal d-inline me-2">Bootstrap</li>
               <li class="fsize-12 fw-normal d-inline">Javascript</li>

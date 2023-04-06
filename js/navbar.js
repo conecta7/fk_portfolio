@@ -52,6 +52,8 @@ if (window.scrollY > navbarHeight) {
 navbarBackground.classList.remove('show');
 }
 
+// on click scroll functions
+
 // Get the links you want to use for scrolling
 const aboutLink = document.querySelector('#about-link');
 const workLink = document.querySelector('#work-link');

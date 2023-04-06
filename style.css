@@ -46,6 +46,7 @@ body {
 .mr-120 {margin-right: 120px;}
 .fw-medium {font-weight: 500;}
 .upwork {color: #98C379;}
+.rhino {color: #E95964;}
 .number {margin-bottom: -20px;}
 .smalltext {margin-top: -15px;}
 
@@ -168,6 +169,19 @@ body {
     background-color: #4998A9;
 }
 
+/* .navbar-nav .nav-item a:hover {
+    color: #4998A9 !important;
+} */
+
+.navbar-nav .nav-item a {
+    color: white;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #4998A9;
+}
+  
+
 /* HEADER  */
 
 .header {
@@ -268,7 +282,6 @@ body {
     margin-right: 20px;
     opacity: 0.5;
     border-radius: 5px;
-    /* margin-top: 10px; */
 }
 
 .upwork-border {
@@ -340,6 +353,7 @@ body {
     line-height: 50px; /* new */
     vertical-align: middle; /* new */
     padding: 25px; /* new */
+    position: relative;
 }
 
 .icon {
@@ -359,7 +373,24 @@ body {
     pointer-events: none;
 }
 
+.main-text {
+    height: 150px;
+    max-width: 100%;
+  }
 
+  .testimonials {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+.written-by {
+    height: 70px;
+    max-width: 100%;
+}
+
+button {
+    border: none;
+}
 
 
 /* EDZI PROJECT PAGE */

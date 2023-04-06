@@ -7,6 +7,10 @@ body {
     padding-top: 112px;
 }
 
+:root  {
+    color-scheme: dark;
+}
+
 .main-img {
     width: 70%;
     margin: auto;
@@ -16,6 +20,9 @@ body {
     z-index: -9999;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 
 .lightblue { color: #4998A9;}
@@ -374,7 +381,7 @@ body {
 }
 
 .main-text {
-    height: 150px;
+    height: 180px;
     max-width: 100%;
   }
 

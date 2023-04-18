@@ -56,7 +56,7 @@ navbarBackground.classList.remove('show');
 
 // Get the links you want to use for scrolling
 const aboutLink = document.querySelector('#about-link');
-const workLink = document.querySelector('#work-link');
+const workLink = document.querySelector('#experience-link');
 const projectsLink = document.querySelector('#projects-link');
 const contactLink = document.querySelector('#contact-link');
 
@@ -67,19 +67,23 @@ const projectsSection = document.querySelector('#project-showcase');
 const contactSection = document.querySelector('#contact-me');
 
 // Add event listeners to the links
-aboutLink.addEventListener('click', () => {
+aboutLink.addEventListener('click', (event) => {
+  event.preventDefault();
   aboutSection.scrollIntoView({ behavior: 'smooth' });
 });
 
-workLink.addEventListener('click', () => {
+workLink.addEventListener('click', (event) => {
+  event.preventDefault();
   workSection.scrollIntoView({ behavior: 'smooth' });
 });
 
-projectsLink.addEventListener('click', () => {
+projectsLink.addEventListener('click', (event) => {
+  event.preventDefault();
   projectsSection.scrollIntoView({ behavior: 'smooth' });
 });
 
-contactLink.addEventListener('click', () => {
+contactLink.addEventListener('click', (event) => {
+  event.preventDefault();
   contactSection.scrollIntoView({ behavior: 'smooth' });
 });
 

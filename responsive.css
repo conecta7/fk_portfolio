@@ -1,0 +1,70 @@
+@media only screen and (max-width: 768px) {
+    .navbar-toggler-icon {
+        color: white !important;
+    }
+
+    .navbar-nav {
+        background-color: #2A3245;
+        border-radius: 5px;
+        padding: 35px 0px 35px 0px;
+        margin-top: 10px;
+        width: 35%;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        align-content: end;
+        flex-wrap: wrap;
+    }
+
+    .navbar-nav p, .navbar-nav a {
+        text-align: center;
+    }
+
+    .nav-item p {
+        font-size: 16px;
+    }
+
+    .nav-item a {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    .social3, .social2, .social1 {
+        font-size: 35px;
+        margin-top: 15px;
+    }
+
+    .project-img-opacity {
+        opacity: 30%;
+        filter: blur(4px);
+    }
+
+    .project-card {
+        background-color: transparent;
+    }
+
+    .project-card-inner {
+        padding: 0px;
+    }
+
+    .card-blue {
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+
+    .project-img-relative {
+        position: relative;
+    }
+
+    .project-div-absolute {
+        top: 108px;
+        left: 50px;
+    }
+
+    .section:not(:first-of-type) {
+        margin-bottom: 100px;
+    }
+
+}

@@ -1,8 +1,4 @@
 @media only screen and (max-width: 768px) {
-    .navbar-toggler-icon {
-        color: white !important;
-    }
-
     .navbar-nav {
         background-color: #2A3245;
         border-radius: 5px;
@@ -18,13 +14,9 @@
         flex-wrap: wrap;
     }
 
-    .navbar-nav p, .navbar-nav a {
-        text-align: center;
-    }
+    .navbar-nav p, .navbar-nav a {text-align: center;}
 
-    .nav-item p {
-        font-size: 16px;
-    }
+    .nav-item p {font-size: 16px;}
 
     .nav-item a {
         font-size: 20px;
@@ -41,30 +33,78 @@
         filter: blur(4px);
     }
 
-    .project-card {
-        background-color: transparent;
-    }
+    .project-card {background-color: transparent;}
 
-    .project-card-inner {
-        padding: 0px;
-    }
+    .project-card-inner {padding: 0px;}
 
     .card-blue {
         margin-top: 25px;
         margin-left: 15px;
     }
 
-    .project-img-relative {
-        position: relative;
-    }
+    .project-img-relative {position: relative;}
 
     .project-div-absolute {
         top: 108px;
         left: 50px;
     }
 
-    .section:not(:first-of-type) {
-        margin-bottom: 100px;
+    .section:not(:first-of-type) {margin-bottom: 100px;}
+
+}
+
+@media only screen and (max-width: 425px) {
+    .navbar-nav {width: 80%;}
+
+    .logo {font-size: 24px;}
+
+    .futura {font-size: 78px;}
+
+    .section:first-of-type {
+        margin-bottom: 160px;
+        padding-top: 80px;
     }
 
+    .work-selector {
+        margin-top: 30px;
+    }
+
+    .fsize-64 {font-size: 34px;}
+
+    .hi {font-size: 28px;}
+
+    #about-karaniku .fsize-20 {font-size: 18px;}
+
+    #about-karaniku .w-75 {width: 100% !important;}
+
+    .number {margin-bottom: -15px;}
+
+    .card {
+        width: 376px;
+        height: 320px;
+    }
+
+    .card-body {
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    #work-history .list-unstyled {max-width: 97%;}
+
+    .project-div-absolute {
+        top: 55.66px;
+        left: 20px;
+    }
+
+    #project-showcase .fsize-16 {font-size: 12px;}
+
+    #project-showcase .fsize-24 {font-size: 20px;}
+
+    .project-card {width: 100%;}
+
+    #project-showcase .text-muted {font-size: 14px;}
+
+    #project-showcase .mt-145 {margin-top: 70px;}
+
+    #contact-me {text-align: center;}
 }

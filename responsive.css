@@ -11,6 +11,10 @@
         display: none;
     }
 
+    .getintouch {
+        text-align: center;
+    }
+
     .navbar-collapse {
         display: flex;
         flex-direction: column;

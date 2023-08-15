@@ -80,8 +80,8 @@ html {
 
 @font-face {
     font-family: 'Futura';
-    src: url(../website/futura/FuturaBT-Heavy.woff) format('woff'),
-    url(../website/futura/FuturaBT-Heavy.woff2) format('woff2');
+    src: url(futura/futura_heavy.woff) format('woff'),
+    url(futura/futura_heavy.woff2) format('woff2');
 }
 
 @-webkit-keyframes hvr-pulse-grow {

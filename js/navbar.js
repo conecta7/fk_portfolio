@@ -59,31 +59,31 @@ $(document).ready(function() {
     const projectsLink = document.querySelector('#projects-link');
     const contactLink = document.querySelector('#contact-link');
 
-    // Get the sections you want to scroll to
-    const aboutSection = document.querySelector('#about-karaniku');
-    const workSection = document.querySelector('#work-history');
-    const projectsSection = document.querySelector('#project-showcase');
-    const contactSection = document.querySelector('#contact-me');
+    // // Get the sections you want to scroll to
+    // const aboutSection = document.querySelector('#about-karaniku');
+    // const workSection = document.querySelector('#work-history');
+    // const projectsSection = document.querySelector('#project-showcase');
+    // const contactSection = document.querySelector('#contact-me');
 
-    // Add event listeners to the links
-    aboutLink.addEventListener('click', (event) => {
-    event.preventDefault();
-    aboutSection.scrollIntoView({ behavior: 'smooth' });
-    });
+    // // Add event listeners to the links
+    // aboutLink.addEventListener('click', (event) => {
+    // event.preventDefault();
+    // aboutSection.scrollIntoView({ behavior: 'smooth' });
+    // });
 
-    workLink.addEventListener('click', (event) => {
-    event.preventDefault();
-    workSection.scrollIntoView({ behavior: 'smooth' });
-    });
+    // workLink.addEventListener('click', (event) => {
+    // event.preventDefault();
+    // workSection.scrollIntoView({ behavior: 'smooth' });
+    // });
 
-    projectsLink.addEventListener('click', (event) => {
-    event.preventDefault();
-    projectsSection.scrollIntoView({ behavior: 'smooth' });
-    });
+    // projectsLink.addEventListener('click', (event) => {
+    // event.preventDefault();
+    // projectsSection.scrollIntoView({ behavior: 'smooth' });
+    // });
 
-    contactLink.addEventListener('click', (event) => {
-    event.preventDefault();
-    contactSection.scrollIntoView({ behavior: 'smooth' });
-    });
+    // contactLink.addEventListener('click', (event) => {
+    // event.preventDefault();
+    // contactSection.scrollIntoView({ behavior: 'smooth' });
+    // });
 
 });

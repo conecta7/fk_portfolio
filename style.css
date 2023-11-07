@@ -24,10 +24,10 @@ html {
   }
 
 
-.lightblue { color: #4998A9;}
+.lightblue { color: #7C3AED;}
 .tontine {color: #2975BF;}
 .purple {background-color: #706BE9;}
-.card-blue {background-color: #2A3245;}
+.card-blue {background-color: #201F24;}
 .fsize-12 {font-size: 12px;}
 .fsize-14 {font-size: 14px;}
 .fsize-16 {font-size: 16px;}
@@ -167,13 +167,13 @@ html {
 }
 
 .btn {
-    border: 1px solid #4998A9;
+    border: 1px solid #7C3AED;
     font-size: 14px;
     padding: 15px 36px;
 }
 
 .btn:hover {
-    background-color: #4998A9;
+    background-color: #7C3AED;
 }
 
 /* .navbar-nav .nav-item a:hover {
@@ -185,7 +185,7 @@ html {
 }
 
 .navbar-nav .nav-item a:hover {
-    color: #4998A9;
+    color: #7C3AED;
 }
   
 
@@ -310,7 +310,7 @@ html {
 /* PROJECTS  */
 
 .project-card {
-    background-color: #2A3245;
+    background-color: #201F24;
     width: 480px;
 }
 
@@ -334,7 +334,7 @@ html {
 /* NOTEWORTHY MENTIONS  */
 
 .mention-card {
-    background-color: #2A3245;
+    background-color: #201F24;
     padding: 40px 30px 25px;
 }
 
@@ -345,7 +345,7 @@ html {
 }
 
 .testimonials {
-    background-color:#2A3245;
+    background-color:#201F24;
     padding: 43px 40px 30px 34px;
 }
 

@@ -25,7 +25,7 @@ html {
 
 
 .lightblue { color: #7C3AED;}
-.tontine {color: #2975BF;}
+.tontine {color: #63b1ff;}
 .purple {background-color: #706BE9;}
 .card-blue {background-color: #201F24;}
 .fsize-12 {font-size: 12px;}
@@ -225,9 +225,9 @@ html {
     color:lightgrey;
 }
 
-.social1:hover {color: #4998A9;}
-.social2:hover {color: #4998A9;}
-.social3:hover {color: #4998A9;}
+.social1:hover {color: #706BE9;}
+.social2:hover {color: #706BE9;}
+.social3:hover {color: #706BE9;}
 
 .line {
     border-left: 1px solid white;

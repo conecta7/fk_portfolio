@@ -54,6 +54,7 @@ html {
 .fw-medium {font-weight: 500;}
 .upwork {color: #98C379;}
 .rhino {color: #E95964;}
+.rhino:hover {color:#E95964}
 .number {margin-bottom: -20px;}
 .smalltext {margin-top: -15px;}
 
